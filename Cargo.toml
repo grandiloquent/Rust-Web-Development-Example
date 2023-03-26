@@ -6,5 +6,10 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+serde = "1.0.158"
+# see https://github.com/stainless-steel/sqlite
+sqlite = "0.30.4"
+# see https://github.com/tokio-rs/tokio
 tokio = { version = "1.26.0", features = ["full"] }
+# see https://github.com/seanmonstar/warp
 warp = "0.3.3"
